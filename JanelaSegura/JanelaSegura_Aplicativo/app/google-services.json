@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107718440531",
+    "project_id": "janelas-etecmam",
+    "storage_bucket": "janelas-etecmam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107718440531:android:58b20e0ef045e7e6ad78a6",
+        "android_client_info": {
+          "package_name": "com.example.janelatcc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKB9zNiyj72pgB6mV-biL7ulfhyUR69zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

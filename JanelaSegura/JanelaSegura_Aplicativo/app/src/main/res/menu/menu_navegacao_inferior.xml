@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_inicio"
+        android:icon="@drawable/home_24dp_1f1f1f"
+        android:title="INÍCIO"/>
+
+    <item
+        android:id="@+id/item_historico"
+        android:icon="@drawable/archive_24dp_1f1f1f"
+        android:title="HISTÓRICO"/>
+
+
+    <item
+        android:id="@+id/item_codigo"
+        android:icon="@drawable/lock_open_24dp_1f1f1f"
+        android:title="CÓDIGO"/>
+
+
+
+</menu>

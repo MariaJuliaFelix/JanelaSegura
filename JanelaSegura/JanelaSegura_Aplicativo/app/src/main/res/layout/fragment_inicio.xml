@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CADBEB"
+    tools:context=".Inicio">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <Button
+            android:id="@+id/botao_abrir"
+            android:layout_width="130dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="55dp"
+            android:backgroundTint="#396AA6"
+            android:text="ABRIR"
+            android:textSize="16sp"
+            app:cornerRadius="7dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline03"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/botao_fechar"
+            android:layout_width="130dp"
+            android:layout_height="53dp"
+            android:layout_marginEnd="55dp"
+            android:backgroundTint="#396AA6"
+            android:text="FECHAR"
+            android:textSize="16sp"
+            app:cornerRadius="7dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline03"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/janela_aberta"
+            android:layout_width="274dp"
+            android:layout_height="281dp"
+            android:src="@drawable/janela_aberta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline02" />
+
+        <ImageView
+            android:id="@+id/imagem_texto_janela"
+            android:layout_width="131dp"
+            android:layout_height="69dp"
+            android:src="@drawable/logojanela2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline01" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
