@@ -56,9 +56,9 @@ No site, é possível encontrar:
 5. Pronto! A janela será controlada automaticamente ou pelo seu comando.
 6. **Abra o site no navegador** para ver a apresentação completa e interagir com o chatbot.
 
-## 📸 Imagens do Projeto
+## 📸 Projeto
 
-*Adicione aqui imagens do seu circuito, aplicativo, e do site funcionando.*
+🎬 [Clique aqui para assistir ao vídeo de demonstração](JanelaSegura.mp4)
 
 ## 📚 Aprendizados
 
